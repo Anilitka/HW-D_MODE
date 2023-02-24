@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body.light {
+	background-color: #ffffff;
+
+}
+body.dark {
+	background-color: #263238;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.form-check{
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+.card-body{
+    text-align: center;
+}
+.txt{
+    font-size: 18px;
+    color: black;
+}
